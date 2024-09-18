@@ -31,7 +31,8 @@
             {
                 "title": "TurnApp",
                 "width": 800,
-                "height": 600
+                "height": 600,
+                "url": "https://juejin.cn/"
             }
         ],
         "security": {
