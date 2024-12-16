@@ -391,6 +391,18 @@ const appRules = reactive<FormRules>({
             message: t('inputAppNamePlaceholder'),
             trigger: 'blur',
         },
+        {
+            validator: (rule, value, callback) => {
+                console.log('appshow name value', value)
+                // the name cannot start with a digit
+                if (/^[0-9]/.test(value)) {
+                    callback(new Error(t('appNameInvalid')))
+                } else {
+                    callback()
+                }
+            },
+            trigger: 'blur',
+        },
     ],
     appid: [
         {
