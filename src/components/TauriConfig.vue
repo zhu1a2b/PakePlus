@@ -233,7 +233,7 @@
                             />
                         </el-form-item>
                     </el-form>
-                    <el-form-item
+                    <!-- <el-form-item
                         label="additionalBrowserArgs"
                         prop="additionalBrowserArgs"
                         class="formItem"
@@ -246,7 +246,7 @@
                             spellCheck="false"
                             placeholder="additionalBrowserArgs"
                         />
-                    </el-form-item>
+                    </el-form-item> -->
                 </div>
             </el-collapse-item>
             <el-collapse-item title="cli" name="2" disabled>

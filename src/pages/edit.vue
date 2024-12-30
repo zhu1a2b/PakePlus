@@ -487,7 +487,7 @@ const tauriConfig = reactive({
         hiddenTitle: false,
         acceptFirstMouse: false,
         tabbingIdentifier: '',
-        additionalBrowserArgs: '',
+        // additionalBrowserArgs: '',
     },
 })
 
